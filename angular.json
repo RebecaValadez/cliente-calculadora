@@ -75,6 +75,9 @@
               "browserTarget": "cliente-calculadora:build:development"
             }
           },
+          "options": {
+            "proxyConfig": "./proxy.config.json"
+          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
@@ -103,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "858dab1f-1f1f-4550-9f92-8e59a7096beb"
   }
 }
